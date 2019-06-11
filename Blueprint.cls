@@ -6,7 +6,7 @@ public with sharing class Blueprint {
 	public final String Lbreak = + '<br/>';
 	public final String qTriggers = 'select Name, TableEnumOrId from ApexTrigger';
 	public final String qValRules = 'select Name, TableEnumOrId from ValidationRule';
-	public ToolIngApi TApi {get; set;}
+	public ToolingApi TApi {get; set;}
 	
 	public Blueprint() {
 		Output = ''; 
